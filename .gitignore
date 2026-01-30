@@ -1,0 +1,77 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnpm-debug.log*
+.npm
+.yarn
+.pnpm
+
+# Build / dist outputs
+dist/
+build/
+out/
+.next/
+.cache/
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker / Compose
+.dockerignore
+.dockerignore.local
+
+# OS / temp files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Vite / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env.local
+.env.*
+!env.example
+
+# Prisma / DB
+prisma/migrations/0_init/
+prisma/seed.ts
+prisma/dev.db
+*.db
+*.sqlite
+*.sqlite3
